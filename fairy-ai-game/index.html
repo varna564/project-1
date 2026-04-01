@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fairy AI Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <h2>🧚 MoodPlay AI</h2>
+  <a href="index.html">Home</a>
+  <a href="game.html">Play Game</a>
+</nav>
+
+<div class="container">
+  <img src="https://cdn-icons-png.flaticon.com/512/3468/3468379.png" class="fairy">
+
+  <div id="chatBox" class="chat-box">
+    <p class="fairy-msg">Hello Varna 🌸 Tell me your mood 💫</p>
+  </div>
+
+  <input id="userInput" placeholder="Talk to fairy..." />
+  <button onclick="talk()">Send</button>
+
+  <div class="moods">
+    <button onclick="setMood('happy')">😄 Happy</button>
+    <button onclick="setMood('sad')">😢 Sad</button>
+    <button onclick="setMood('angry')">😡 Angry</button>
+    <button onclick="setMood('bored')">😴 Bored</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
